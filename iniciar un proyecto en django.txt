@@ -1,0 +1,16 @@
+para guardar todo en un entorno virtual vamos a comenzar agregando uno a nuestro proyecto
+
+pip install virtualenv
+Python -m virtualenv nombredelacarpeta(venv)
+
+aca vamos a instalar django en el entorno virtual
+
+pip install django
+
+aca vamos a iniciar nuestro proyecto en Python 
+
+django-admin startproject nombreproyecto .
+
+para crear una nueva aplicación en nuestro proyecto debemos utilizar 
+
+Python manage.py startapp nombredelaapp
