@@ -4,6 +4,9 @@ pip install virtualenv
 Python -m virtualenv nombredelacarpeta(venv)
 
 aca vamos a instalar django en el entorno virtual
+pero antes debemos activar el entorno virtual que se activa ejecutando esto 
+
+.\venv\Scripts\Activate
 
 pip install django
 
