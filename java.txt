@@ -1,6 +1,6 @@
 java
 
-tipo0s de datos
+tipos de datos
 
                 primitivos
         nombre        palabra reservada     sintaxis
