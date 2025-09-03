@@ -1,0 +1,14 @@
+java
+
+tipo0s de datos
+
+                primitivos
+        nombre        palabra reservada     sintaxis
+- entero            |- int (32 bits)    |-0          |
+- entero (byte)     |- byte (8 bits)    |-0          |
+- entero (short)    |- short ( 16 bits) |-0          |
+- entero (long)     |- long ( 64 bits)  |-0L         |
+- flotante          |- float ( 32 bits) |-3.14       | 
+- flotante (double) |- double ( 64 bits)|-3.14       |
+- caracter          |- char             |-'a'        |
+- boleano           |- boolean          |-true/false |
