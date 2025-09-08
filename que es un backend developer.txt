@@ -1,0 +1,23 @@
+es quien se encarga de crear y mantener la parte  no visible de un sistema 
+o una  aplicacio es  decir este se encarga de la logica del servidor
+las bases de  datos y API que hacen funcionar las  aplicaciones y le  otorgan 
+seguridad a estas mismas nombradas anteriormente.
+
+
+que es  lo que realmente hace un backend developer
+
+1-. desarrolla la logica
+    - procesa las solicitudes del usuario
+    -ejecuta las funciones del sistema/programa
+2-. Gestiona la  base de datos 
+    -disena, implementa y mantiene la base de datos 
+3-. Creacion de API
+    -desarrolla una interface de programacion de  aplicaciones
+4-. Seguridad
+    -iimplementa medidas de seguridad en un aplicacion
+5-. Integracion de servicios
+    -conecta la aplicacion con servicios externos
+6-. Pruebas y mantenimiento
+    - garantiza la estabilidad del codigo de la aplicacion
+    - depurar errores
+    -mantiene la aplicacion a lo  largo del tiempo
