@@ -1,0 +1,38 @@
+que son?
+
+una forma de reaccionar automáticamente 
+a ciertos eventos del sistema,
+
+Piensa en las señales como "ganchos" que se 
+disparan cuando algo sucede en el sistema.
+
+¿Para qué sirven?
+
+Imagina que cada vez que alguien crea un nuevo proyecto en tu sistema, quieres:
+
+Enviar una notificación
+
+Crear un historial
+
+Imprimir un mensaje
+
+Enviar un correo
+
+Crear automáticamente otra entidad relacionada
+
+Con señales, puedes hacer esto sin tener que modificar el lugar donde se guarda el objeto.
+
+ cada vez que se cree un proyecto se va realizas esta signal
+# signals.py (dentro de tu app)
+
+from django.db.models.signals import post_save
+from django.dispatch import receiver
+from .models import Proyecto
+
+@receiver(post_save, sender=Proyecto)
+def notificar_nuevo_proyecto(sender, instance, created, **kwargs):
+    if created:
+        print(f"🎉 Nuevo proyecto creado: {instance.nombre}")
+post_save: se ejecuta justo después de guardar el objeto.
+
+created: es True si el objeto se acaba de crear (no si se actualizó).
