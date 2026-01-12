@@ -93,4 +93,54 @@ let x = 5;
 let y = 10;
 
 console.log(!(x > 0)); // Devuelve false
-console.log(!(y < 0)); // Devuelve truecd
+console.log(!(y < 0)); // Devuelve true
+
+Sentencias condicionales
+
+
+// Variable que indica si el usuario está logueado
+let usuarioLogueado = true;
+
+if (usuarioLogueado) {
+// Si el usuario está logueado, se muestra el contenido para usuarios
+logueados
+console.log("Bienvenido, usuario logueado. Acá está el contenido exclusivo.");
+} else {
+// Si el usuario no está logueado, se muestra el contenido para usuarios no
+logueados
+console.log("Por favor, inicia sesión para acceder a este contenido.");
+}
+
+let edad = 18;
+
+if (edad >= 18) {
+console.log("Eres mayor de edad");
+}
+
+
+Operador AND (&&) con IF/ELSE:
+
+let edad = 25;
+let tieneLicencia = true;
+
+if (edad >= 18 && tieneLicencia) {
+console.log("puedes conducir legalmente.");
+} else {
+console.log("No cumplis con los requisitos para conducir.");
+}
+
+Operador OR (||) con IF/ELSE:
+
+let esEstudiante = false;
+let esEmpleado = true;
+
+if (esEstudiante || esEmpleado) {
+console.log("Tenes acceso a descuentos especiales.");
+} else {
+console.log("No tenes acceso a descuentos especiales.");
+}
+
+
+Operador Ternario
+
+
