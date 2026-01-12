@@ -1,0 +1,96 @@
+para declara una variable utilizaremos una anotacion llamada camelCase ejemploNombreVariable
+(cada vez que comienze una nueva palabra comienza con letra mayuscula)
+ 
+para declarar una variable utilizaremos las palabras claves
+
+//Las variables declaradas con var tienen un alcance de función o global,
+var nombreVarible = " NottNico";
+
+//let permite declarar variables con un alcance de bloque.
+let nombreVarible2 = "nottnicolaw";
+
+//const se utiliza para declarar constantes, es decir, variables que no pueden cambiar su valor una vez asignado.
+const emailConstante = "NottNicolaw@gmail.com"
+
+let x = 10;
+let y = 5;
+
+let suma = x + y ;
+
+console.log(suma);
+
+expresiones aritméticas
+
+let x = 5;
+let y = 3;
+
+let suma = x + y; // Suma: 8
+let resta = x - y; // Resta: 2
+let multiplicacion = x * y; // Multiplicación: 15
+let division = x / y; // División: 1.6666666666666667
+let resto = x % y; // Resto: 2
+let exponente = x ** y; // Exponente: 125
+
+let numero = 100;
+console.log(numero)//Salida por consola --> 100
+//incremento
+numero++;
+console.log(numero)//Salida por consola --> 101
+//decremento
+numero = numero--;
+console.log(numero)//Salida por consola --> 100
+
+
+Operadores de Asignación
+
+let z = 10;
+z += 5; // Equivale a z = z + 5; (z = 15)
+z -= 3; // Equivale a z = z - 3; (z = 12)
+z *= 2; // Equivale a z = z * 2; (z = 24)
+z /= 4; // Equivale a z = z / 4; (z = 6)
+z %= 2; // Equivale a z = z % 2; (z = 0)
+
+
+
+Operadores de comparacion
+igualdad (==)
+igualdad estricta (===)
+desigualdad (!=)
+desigualdad estricta(!==)
+
+let x = 5;
+let y = 10;
+
+console.log(x > y); // mayor que
+console.log(x < y); // menor que
+console.log(x >= y); // mayor o igual que
+console.log(x <= y); // menor o igual que
+
+
+Operadores Lógicos
+
+
+Operador AND (&&):
+let x = 5;
+let y = 10;
+
+console.log(x > 0 && y > 0); //  si x es mayor que 0 e y es mayor que 0 devuelve true
+console.log(x > 0 && y < 0); //  si x es mayor que 0 e y es menor que 0 devuelve false
+
+Operador OR (||):
+
+let x = 5;
+
+Pág. 19
+
+let y = 10;
+
+console.log(x > 0 || y > 0); // Devuelve true
+console.log(x < 0 || y < 0); // Devuelve false
+
+Operador NOT (!):
+let x = 5;
+let y = 10;
+
+console.log(!(x > 0)); // Devuelve false
+console.log(!(y < 0)); // Devuelve truecd
