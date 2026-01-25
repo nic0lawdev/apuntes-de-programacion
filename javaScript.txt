@@ -142,5 +142,123 @@ console.log("No tenes acceso a descuentos especiales.");
 
 
 Operador Ternario
+Su sintaxis es la siguiente:
+condicion ? expresion1 : expresion2;
 
+let num1 = 7;
+let num2 = 5;
+
+//Operador ternario: (condición ? verdadero : falso)
+
+let resultado = num1 > num2 ? "el 1" : "el 2";
+
+console.log(resultado);
+
+
+switch en JavaScript se utiliza cuando se necesita evaluar una
+expresión y ejecutar diferentes bloques de código
+
+
+
+function saludar(){
+    console.log("hola gente los estoy saludando a traves de la consola  ")
+}
+
+switch (expresion) {
+case valor1:
+// Bloque de código a ejecutar si la expresion es igual a valor1
+break;
+case valor2:
+// Bloque de código a ejecutar si la expresion es igual a valor2
+break;
+case valor3:
+// Bloque de código a ejecutar si la expresion es igual a valor3
+break;
+// ...
+default:
+// Bloque de código a ejecutar si ninguno de los casos anteriores se cumple
+}
+
+
+
+las funciones tienen el fin de evitar la constante 
+repeticion de bloques de codigo
+
+entonces como resumen las funciones son un conjunto de intruccione, que
+transforma en un bloque de codigo el cual es reutilizable
+
+
+
+las principales ventajas son
+
+evitar  intrucciones repetitivas
+aporta ordenamiento y entendimiento al codigo
+
+la declaracion se realiza con la palabra 
+function nameFuncion(){
+
+    bloque de codigo
+}
+
+
+function conParametros(name, surname, lastname){
+
+    console.log('saludar a' + name + ' como estas'+)
+}
+
+conParametros(); // ejecutando la function
+
+una variable definida dentro de la funcion es una varible local que solo va 
+estar disponible dentro de este bloque
+
+y una variable definida fuera de una funcion es una variable global
+
+Scope
+
+es la zona del programa en la cual se define
+pueden ser global o local
+
+
+let nombre = "Juan"; // escope global
+
+function saludar() {
+    let nombre = "pedrito"
+    console.log("Hola, " + nombre); // Accediendo a la variable global dentro de la función
+}
+
+saludar(); // escope local
+console.log(nombre); // Imprime "Juan"
+
+
+funciones anonimas
+
+
+Una función anónima es una función que se define sin nombre y se utiliza para
+ser pasada como parámetro o asignada a una variable.
+
+const varible = function (a,b){ return a+b}
+
+console.log( suma(15,20) )
+
+
+Funciones Flechas =>
+
+
+
+const suma = (a, b) => { return a + b }
+
+Si la función flecha tiene un solo parámetro, se pueden omitir los paréntesis
+alrededor del parámetro.
+
+Funcion flecha sin con un parametro
+
+
+
+const duplicar = numero => {
+return numero * 2;
+};
+
+
+
+quede en obtener datos de inputs
 

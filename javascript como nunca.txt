@@ -1,0 +1,42 @@
+javascript como nunca antes lo habias visto
+
+
+es buena practica agregar ; luego de una sentencia de codigo
+si tenemos una sentia muy larga es buena practica dividir en varias lineas para mejorar
+su legibilidad
+
+VARIABLES Y CONSTANTES
+
+las varibles pueden alterar su valor en cambio las constantes no
+
+para declarar una variable se utiliza la siguiente sintaxis
+
+let nombreVarible = valorVariable;
+
+js cuenta con un sistema de tipado dinamico, pero las varibles deben de llamarse exactamente igual para que sean las mismas
+
+js sigue la nomenclatura de camelCase queSeriQueCadaVezQueComienzaUnaNuevaPalabraComienzaConMayusculaTalComoAca
+
+
+
+TIPOS DE DATOS PRIMITIVOS
+
+
+Boolean (False/True)
+Number 1,2,3,4,5(cualquier tipo de dato numerico)
+BigInt 45444444444444(solo numeros enteros)
+String "creo que es una cadena de caracteres"
+Null nulo o vacio
+Undefined falta de valor
+
+
+en javascript a diferencia de los demas lenguajes, todos los valores numericos forman parte del tipo de dato Number
+
+para utilizar el tipo de dato bigInt solo se debe de colocar una n luego del numero que queremos mostrar
+
+
+
+
+SENTENCIAS DE CONTROL DE FLUJO
+
+

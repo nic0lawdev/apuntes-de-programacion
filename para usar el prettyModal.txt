@@ -1,0 +1,12 @@
+para usar el prettyModal
+
+
+
+import { PrettyModal } from '../composables/PrettyModal'
+
+
+
+const prettyModal = new PrettyModal()
+
+const handleOpen = (dialogId) => prettyModal.open(dialogId)
+const handleClose = (dialogId) => prettyModal.close(dialogId)
