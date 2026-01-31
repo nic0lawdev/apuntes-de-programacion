@@ -1,0 +1,14 @@
+controller -> manejo de endpoints (get,put,delete,post)
+     |->request  ->lo que el cliente manda al backend (ej, formulario de inicio de sesion) 
+dto 
+     |->response ->lo que se le entrega al cliente ( ej, el barberia, roles, perfil)
+     
+entity -> son las clases que representa las tablas de tu base de datos
+
+repository -> es la capa que habla con la base de datos
+
+	|->interfaces  -> define que es lo que va hacer
+service 
+     	|-> impl -> es la logica de tu proyecto
+
+exception -> aqui se define que pasa cuando algo sale mal
